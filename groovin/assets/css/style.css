@@ -304,17 +304,20 @@ header{
 section#intro{
 	position:relative;
 	width:100%;
-	height:auto;
+	height:100%;
+	background-size:cover;
 	margin:0;
 }
 
+
 section#intro{
 	padding:0 0 0 0;
-
+	background-size:cover;
 }
 
 section#intro.inner {
 	padding:140px 0 30px;
+	background-size:cover;
 }
 
 section#intro.inner h2 strong  {
@@ -324,16 +327,15 @@ section#intro.inner h2  {
 	font-size:32px;
 }
 
-
 section#intro  {
-	text-align:center;
+	text-align:left;
 }
 
 .sy-caption-wrap .sy-caption {
   position: relative;
   left: -50%;
 font-size: 48px;
-  color: #fff;
+  color: #000000;
   line-height: 1.1em;
 
 }
@@ -1135,6 +1137,8 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 @media (max-width: 480px) {
+	
+	
 	.default {
 		opacity: 1;
 	}

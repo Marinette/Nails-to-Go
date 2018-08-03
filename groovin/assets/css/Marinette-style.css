@@ -19,3 +19,37 @@ li {
 .contact-info h4 {
 	margin-top: 5%;
 }
+
+.mySlides {
+	width: 100%;
+	height: 100%;
+}
+
+.myMiddleSlides {
+	width:100%;
+	height:100%;
+}
+
+.carouselContainer {
+	width: auto;
+	height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+	.mySlides {
+		width: auto;
+		height: 200px;
+	}
+	
+	.carouselContainer {
+		margin-top: 17.5%;
+		
+		width: auto;
+	}
+	
+	.myMiddleSlides {
+		width:auto;
+		height:200px;
+	}
+	
+}

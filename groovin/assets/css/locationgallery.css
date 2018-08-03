@@ -6,3 +6,9 @@
 	margin-top: 10%;
 	margin-bottom: 10%
 }
+
+@media only screen and (max-width:480px) {
+	.location_gallery .col-sm-4 {
+		margin-top: 2%;
+	}
+}
