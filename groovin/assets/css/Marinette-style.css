@@ -20,21 +20,22 @@ li {
 	margin-top: 5%;
 }
 
-.mySlides {
-	width: 100%;
-	height: 100%;
+.carousel {
+	overflow:hidden;
 }
-
-.myMiddleSlides {
-	width:100%;
-	height:100%;
-}
-
 .carouselContainer {
 	width: auto;
 	height: auto;
+	overflow: hidden;
 }
 
+
+.item img {
+	height:100%;
+	width:100%;
+}
+
+.carouselContainer .item active
 @media only screen and (max-width: 480px) {
 	.mySlides {
 		width: auto;
@@ -43,8 +44,8 @@ li {
 	
 	.carouselContainer {
 		margin-top: 17.5%;
-		
 		width: auto;
+		height:100%;
 	}
 	
 	.myMiddleSlides {
